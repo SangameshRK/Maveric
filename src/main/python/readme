@@ -1,0 +1,11 @@
+There are 2 files in the main python directory
+1. assignment.py:
+    i. This file has the solutions for Question #2
+    ii. By executing this python will provide the answers to the Questions part of Question #2
+    iii. There is no need of any arguments
+    iv. Can change the variable `input_file_path` for the updated datasets of same schema to get the analysis on that data.
+
+2. merger_utility.py:
+    i. This file is an utility to handle the incremental data
+    ii. This utility will merge the incremental data with persisted data with scd1 logic
+    iii. This utility can be reused by changing the variables incremental_data_path, persisted_data_path and primary_key or sending there variables as arguments
